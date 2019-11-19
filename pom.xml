@@ -10,6 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>zerg-egg-huobi</module>
+        <module>zerg-egg-incubator</module>
     </modules>
 
 
@@ -70,6 +71,12 @@
                 <groupId>com.zerg</groupId>
                 <artifactId>zerg-egg-huobi</artifactId>
                 <version>1.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zerg</groupId>
+                <artifactId>zerg-egg-incubator</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
