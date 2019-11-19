@@ -73,12 +73,17 @@ public class OneYearDateStore {
         // 2018.03.01 1519833600
         // 2018.04.01 1522512000
         // 2018.05.01 1525104000
+        // 2018.06.01 1527782400
         // 2018.07.01 1530374400
+        // 2018.08.01 1533052800
+        // 2018.09.01 1535731200
         // 2018.10.01 1538323200
+        // 2018.11.01 1541001600
+        // 2018.12.01 1543593600
         // 2019.01.01 1546272000
         String symbol = "btcusdt";
         long start = System.currentTimeMillis();
-        sendData(symbol, 1517414400L,1519833600L);
+        sendData(symbol, 1519833600L,1522512000L);
         long end = System.currentTimeMillis();
         System.out.println("cost time:" + (end - start) + "ms");
 
