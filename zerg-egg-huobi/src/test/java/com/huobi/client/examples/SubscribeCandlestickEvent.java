@@ -21,7 +21,7 @@ public class SubscribeCandlestickEvent {
 //      System.out.println("Volume: " + candlestickEvent.getData().getVolume());
 //    });
 
-        subscriptionClient.requestCandlestickEvent(symbol, 1325347200L, 2524579199L, CandlestickInterval.MIN15, (candlestickEvent) -> {
+        subscriptionClient.requestCandlestickEvent(symbol, 1541865660L, 1541865780L, CandlestickInterval.MIN1, (candlestickEvent) -> {
             System.out.println("--------------- Request Candlestick ------------------");
             System.out.println("===size:" + candlestickEvent.getData().size() + "===");
             candlestickEvent.getData().forEach(candlestick -> {

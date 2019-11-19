@@ -14,5 +14,18 @@
     <name>zerg-egg-incubator</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <dependencies>
+
+        <dependency>
+            <groupId>com.zerg</groupId>
+            <artifactId>zerg-egg-huobi</artifactId>
+        </dependency>
+        <!--mongodb mvn-->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.0.4</version>
+        </dependency>
+    </dependencies>
 
 </project>
